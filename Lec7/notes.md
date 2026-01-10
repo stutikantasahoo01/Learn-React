@@ -1,0 +1,1 @@
+# When we write any inline css in jsx we write like this:- <h1 style={{color:'white'}}>Hi<h1/>
