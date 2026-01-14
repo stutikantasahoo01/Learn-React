@@ -4,6 +4,7 @@ const section1 = () => {
   return (
     <div className="bg-blue-200 h-screen w-full">
      <Navbar />
+     <Page1content />
     </div>
   )
 }

@@ -3,7 +3,7 @@
 const page1content = () => {
   return (
     <div>
-      
+      Hii
     </div>
   )
 }
