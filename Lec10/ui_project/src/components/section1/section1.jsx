@@ -1,10 +1,10 @@
 import Navbar from './navbar.jsx'
 import Page1content from './page1content.jsx'
-const section1 = () => {
+const section1 = (props) => {
   return (
-    <div className="bg-blue-200 h-screen w-full">
+    <div className=" h-screen w-full">
      <Navbar />
-     <Page1content />
+     <Page1content users={props.users} />
     </div>
   )
 }
