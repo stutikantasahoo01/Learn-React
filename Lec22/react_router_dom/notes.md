@@ -27,6 +27,7 @@
 # In React Router, the <Link> tag is the backbone of navigation. While it renders a standard <a> tag in the HTML, it works very differently under the hood.
 
 # Why not just use <a>?
+
 # If you use a standard <a href="/about">, the browser will perform a full page reload. This wipes out your application state, restarts your React app, and creates a noticeable "flash" of white screen.
 
 # The <Link> component intercepts that click, prevents the reload, and simply updates the URL and the components on the screen. This is what makes a site feel like a "Single Page Application."
